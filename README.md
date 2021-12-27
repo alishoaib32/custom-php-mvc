@@ -17,7 +17,7 @@
 * Setup Database
 * Update database configuration in config/config.php
 * Run `composer install`
-* Run `dump-autoload`
+* Run `composer dump-autoload`
 * In wamp or xampp create vhost for example "http://example.loc/" and point it to public directory
 * In production point your domain to public directory
 * Update config/config.php file according to your settings 
