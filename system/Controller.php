@@ -2,8 +2,6 @@
 
 namespace system;
 
-use Symfony\Component\HttpKernel\HttpKernelInterface;
-
 /**
  * Base controller
  */
