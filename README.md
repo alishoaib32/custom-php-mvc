@@ -2,6 +2,14 @@
 
  -A Cusotm PHP MVC framework . Built by [@Ali Shoaib](https://www.linkedin.com/in/ali-shoaib-591812a1)
  
+ Custom PHP MVC includes following:
+- MVC based url pattern using  "**simple-router library**"
+- Load application configuration and bootstrapping process
+- Basic routing and dispatch process
+- Basic model, view & controller core architecture with repository pattern
+- PHP PDO as a database access layer
+- Monolog package to handle application logs
+- psr-4  autoloader
  
  ---
 
