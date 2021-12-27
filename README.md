@@ -1,3 +1,3 @@
 # custom-php-mvc
 
- -A lightweight custom PHP MVC framework. Built by @ali shoaib
+ -A Cusotm PHP MVC framework . Built by [@Ali Shoaib](https://www.linkedin.com/in/ali-shoaib-591812a1)
