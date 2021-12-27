@@ -1,0 +1,473 @@
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (min-width: 1440px) {
+
+	.data-flt-table table thead tr th .info-section {
+		right:4px;
+	}
+
+	.d-filter-inp-rit{
+		width:200px;
+	}
+
+}
+
+ /******** Below Default 1366px ************/
+
+@media screen and (max-width: 1200px) {
+
+	.d-filter-inp-rit{
+		width:165px;
+		min-width: 100px;
+	}
+
+	.data-flt-table table thead tr th,
+	.data-flt-table table tbody tr td {
+		padding: 15px 6px;
+	}
+
+	.data-flt-table table thead tr th:first-child,
+	.data-flt-table table tbody tr td:first-child {
+		padding-left: 20px;
+	}
+
+	.data-flt-table table thead tr th:last-child,
+	.data-flt-table table tbody tr td:last-child {
+		padding-right: 20px;
+	}
+
+
+
+	.data-flt-table table thead tr th .info-section{
+		right:-9px;
+	}
+
+
+	.data-flt-table table thead tr th:nth-child(2),
+	.data-flt-table table thead tr th:nth-child(6) {
+		width: 62px !important;
+	}
+
+	/* Module Order dashboard  */
+	.o-detail-data-table table i{
+		margin:0;
+	}
+
+	.o-detail-data-table table thead th:first-child,
+	.o-detail-data-table table tbody td:first-child{
+		padding-left:20px;
+	}
+	.o-detail-data-table table thead th:last-child,
+	.o-detail-data-table table tbody td:last-child{
+		padding-right:20px;
+	}
+
+	.o-detail-data-table table thead th{
+		font-size: 13px;
+	}
+
+	.insight-data-table table thead th:first-child,
+	.insight-data-table table tbody td:first-child{
+			padding-left:20px;
+	}
+	.insight-data-table table thead th:last-child,
+	.insight-data-table table tbody td:last-child{
+			padding-right:12px;
+	}
+
+}  /** Media Screen 1200 Close **/
+
+@media screen and (max-width: 1024px) {
+
+	/* Header */
+
+	.navbar .navbar-brand-wrapper{
+		width:100px;
+	}
+	.navbar .navbar-menu-wrapper {
+		width: calc(100% - 100px);
+	}
+ 
+	.filters{}
+
+	.group-sec-outer ul{
+		justify-content: space-between;
+
+	}
+	.group-sec-outer ul li { 
+		padding:0 0 10px 0;
+		margin:0;
+		flex: 0 0 49%;
+	
+	}
+
+	.group-sec-outer ul li button.btn{ 
+		width:100%;
+	}
+ 
+	.group-check-outer ul li{
+		padding: 10px 16px 10px 16px !important;
+		flex: inherit !important;
+	}
+ 
+	.card-status{
+		padding:15px;
+		height: 120px;
+
+	}
+	.card-status .amount{
+		position: relative;
+		padding-right: 20px;
+	}
+
+	.card-status .amount i{
+		position: absolute;
+		right:0;
+		top:10px;
+		margin:0;
+	}
+
+	.content-wrapper, .container{
+		padding:30px;
+	}
+
+	.data-flt-table table thead tr th,
+	.data-flt-table table tbody tr td{
+		padding:15px 3px;
+
+	}
+
+	/* Order-Detail  */
+
+	.insight-data-table table thead th,
+	.insight-data-table table tbody td{
+		padding: 15px 4px;
+
+	}
+
+	.insight-data-table table thead th:first-child,
+	.insight-data-table table tbody td:first-child {
+		padding-left: 14px;
+	}
+
+	.insight-data-table table thead th:last-child,
+	.insight-data-table table tbody td:last-child {
+		padding-right: 14px;
+	}
+
+	.insight-data-table table i{
+		margin-left:12px;
+	}
+
+	/* Module Redemptions */
+
+	.sel-grp-tages ul li.sel-grp-tg-list{
+		margin-right:10px;
+	}
+	.sel-grp-tg-list a{
+		font-size:14px;
+
+	}
+	.section-header{
+		padding-bottom:10px;
+	}
+	.section-header h3 {
+		font-size: 17px;
+	}
+
+	.order-dashboard .card-status,
+	.redumption-dashboard .card-status{
+		padding: 15px;
+	}
+
+
+	.sel-grp-tg-list a,
+	.sel-grp-tages ul li:last-child a {
+		padding: 6px 34px 5px 14px;
+	}
+
+	/* ROI */
+
+	.d-filter-inp-lft small {
+		font-size: 12px;
+	}
+	.data-flt-table table thead tr th p {
+		font-size: 11px;
+		line-height: 13px;
+	}
+
+	.data-flt-table table thead tr th .info-section{
+		right: 0;
+    	top: -15px;
+	}
+
+	.info-section.dropdown .dropdown-menu p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.card-status p{
+		font-size: 14px;
+	}
+	.card-status .amount{
+		font-size: 19px;
+	}
+
+	.d-filter-inp-rit{
+		width:100px;
+	}
+
+	.product-rit-detail {
+		padding-left: 20px;
+	}
+	.product-rit-detail h4{
+		font-size: 18px;
+
+	}
+	.prod-sub-sec span {
+		width: 20px;
+	}
+	.prod-sub-sec strong {
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.prod-sub-sec p {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+
+}  /** Media Screen 1024 Close **/
+
+@media screen and (width: 992px) {}
+
+@media screen and (max-width: 991px) {
+ 
+  
+	.d-filter-inp-rit{
+		width:200px;
+	}
+
+    /*****/
+
+    .menu_close_wrap {
+        height: 60px;
+        width: 100%;
+        padding:10px 20px;
+        background: #2f85fe;  
+        position: absolute;
+        top: 0;
+        left:0;   
+        z-index: 10;
+
+    }
+    .menu_close_icon { 
+        width: 35px !important;
+        height: 35px;
+        border: none;
+        border-radius: 0px;
+        background: url(../../images/menu-back-icon.png) no-repeat center center;
+        background-size: 90%; 
+    }
+
+	/***  Menu Close ****/
+ 
+
+ 
+	.flt-right-sec .group-outer {
+		width:auto; 
+	}
+
+	.card-status p{
+		font-size:11px;
+	}
+	.card-status p:first-child{
+		margin:0;
+	}
+	.card-status .amount {
+		font-size:18px;
+		line-height:22px;
+	}
+  
+	.flt-right-sec .group-outer {	
+		order:2;
+		margin:0;
+	}
+ 
+
+	.grid-margin{
+		margin-bottom: 20px;
+	}
+	
+	.group{
+		padding-right:30px;
+	}
+
+	.daterangepicker.show-calendar .ranges{
+		margin-top:0 !important;
+	}
+	.daterangepicker.show-ranges .ranges ul{
+		justify-content: space-between;
+	}
+
+	.daterangepicker .ranges li {
+		font-size: 12px;
+		padding: 8px 4px !important;
+	}
+	
+	.daterangepicker .drp-calendar{
+		width:100% !important;
+		max-width: 100% !important;
+		padding: 10px !important;
+	}
+	.daterangepicker .calendar-table td, .daterangepicker .calendar-table th{
+		line-height:32px !important;
+	}
+
+	.daterangepicker .calendar-table table thead,
+	.daterangepicker .calendar-table table thead * {
+		background-color: #eee !important;
+		border-radius: 0px !important;
+	}
+ 
+	 
+
+}  /** Media Screen 992 Close **/
+ 
+
+@media screen and (max-width: 767px) {
+
+	  
+	.group-sec-outer{
+		order:2;  
+	}
+	.group-sec-outer ul{
+		justify-content: space-between; 
+	}
+	.group-sec-outer ul li{ 
+		padding:10px 0 0 0; 
+	}
+  
+	.flt-right-sec { 
+		justify-content: space-between;
+	}
+ 
+	
+	.flt-right-sec .group-outer,
+	.flt-right-sec  .flt-right-datepicker {
+		width:100%; 
+	}
+	.flt-right-sec .group-outer{
+		padding-top:10px;
+	}
+	 
+	.flt-right-datepicker{
+		padding:0;
+	}
+  
+	.flt-right-datepicker .vue-daterange-picker{
+		width: 100%;
+	}
+
+	.daterangepicker .ranges li{
+		flex: 0 0 33%;
+		text-align: center;
+	}
+
+	/** Filter Dropdown stying **/
+ 
+	.group-outer .group-dropdown{
+		width: 100%;
+		height: 350px; 
+		position: fixed;
+		top: auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		padding-bottom: 0;
+		box-shadow: 0px 13px 26px -9px #000;
+		-webkit-box-shadow: 0px 13px 26px -9px #000;
+		-moz-box-shadow: 0px 13px 26px -9px #000;
+		-ms-box-shadow: 0px 13px 26px -9px #000;
+		-o-box-shadow: 0px 13px 26px -9px #000;
+		border-radius: 30px 30px 0 0;
+		box-shadow: 0px -8px 27px -12px #000;
+		-webkit-box-shadow: 0px -8px 27px -12px #000;
+		-moz-box-shadow: 0px -8px 27px -12px #000;
+		-ms-box-shadow: 0px -8px 27px -12px #000;
+		-o-box-shadow: 0px -8px 27px -12px #000;
+	} 
+	
+	.group-check-outer { 
+		overflow-y: auto;
+		height: calc( 100% - 50px ); 
+	}
+
+	.filter-label{
+		width:100%;
+		justify-content: space-between;
+		padding-bottom: 10px;
+	}
+ 
+	.filters{
+		padding:13px 20px;
+	} 
+	.filter-label{
+		margin:0;
+	}
+	 
+
+	/*********/
+	  
+	.pg-heading small{
+		display: block;
+		padding-top:10px;
+	}
+	.info-section.dropdown .dropdown-menu{
+		width: 250px;
+	}
+	
+	.flt-right-datepicker { 
+		width: 100%;
+	}
+	.sub-sections{
+		padding:0;
+	}
+
+	.ROI-detail {
+		padding: 15px;
+	}
+
+	.graph-card-sec{
+		padding: 0 0 15px 0;
+	}
+
+	.ROI-detail.secton-collap{
+		height: 650px !important;
+	}
+	.short-card-sec{
+		padding:0;
+	}
+	
+
+} /** Media Screen 414 Close **/
+
+  
+@media screen and (max-width: 413px) {}
+
+@media screen and (max-width: 374px) { 
+	.menu-right-list ul li{
+		margin-left: 10px !important;
+	}
+}
+
+@media screen and (max-width: 359px) { 
+
+	.navbar .navbar-brand-wrapper{
+		width:70px;
+	}
+ 
+}

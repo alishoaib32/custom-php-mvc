@@ -1,0 +1,14 @@
+{
+    "name": "boozt/web",
+    "description": "Test Application",
+    "autoload": {
+        "psr-4": {
+            "System\\": "system/",
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^1.23",
+        "pecee/simple-router": "^4.3"
+    }
+}
